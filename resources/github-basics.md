@@ -1,3 +1,9 @@
+
+---
+
+# 🐙 GitHub Basics – Alphie Tech Responsive Frontend Engineering Masterclass (10 Weeks)
+
+````md
 # 🐙 GitHub Basics – Alphie Tech Responsive Frontend Engineering Masterclass (10 Weeks)
 
 Welcome to GitHub Basics.
@@ -30,7 +36,6 @@ Think of it as:
 # 📥 Step 1 — Create a GitHub Account
 
 Visit:
-
 https://github.com/
 
 Create an account using:
@@ -42,300 +47,208 @@ Create an account using:
 
 # 💡 Username Tips
 
-✅ Good usernames:
-
+✅ Good:
 ```txt
 johncodes
 marydev
 alphiekelly
-```
+````
 
 ❌ Avoid:
 
 ```txt
 coolboy123
-babygirl001
 xxdarklordxx
 ```
-
-Your GitHub profile is part of your professional identity.
 
 ---
 
 # 📦 Step 2 — Install Git
 
-Download Git:
+[https://git-scm.com/downloads](https://git-scm.com/downloads)
 
-https://git-scm.com/downloads
-
-Install normally.
-
----
-
-# ✅ Verify Git Installation
-
-Open terminal and run:
+Verify:
 
 ```bash
 git --version
-```
-
-You should see something like:
-
-```bash
-git version 2.x.x
 ```
 
 ---
 
 # ⚙️ Step 3 — Configure Git
 
-Run:
-
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your-email@example.com"
 ```
 
-Example:
+---
 
-```bash
-git config --global user.name "John Doe"
-git config --global user.email "johndoe@gmail.com"
-```
+# 🏢 Step 4 — Join Alphie Tech Organization
+
+You will receive an invitation to the Alphie Tech GitHub organization.
+
+Inside the organization you will find:
+
+* course template repository
+* assignments
+* resources
+
+Accept the invitation before continuing.
 
 ---
 
-# 🏢 Step 4 — Join the Alphie Tech Organization
+# 🍽️ Step 5 — Create Your Student Repository from Template
 
-You will receive an invitation to join the Alphie Tech GitHub organization.
+Instead of starting from scratch, you will use a **template repository**.
 
-Accept the invitation.
-
-This organization will contain:
-- course repositories
-- assignments
-- resources
-- collaboration repositories
-
----
-
-# 📂 Step 5 — Clone Your Student Repository
-
-Copy your repository link.
-
-Example:
+### 📌 Template Repo
 
 ```txt
-https://github.com/alphie-tech/std-john-doe.git
-```
-
-Clone it:
-
-```bash
-git clone https://github.com/alphie-tech/std-john-doe.git
+alphie-tech/template-student-repo
 ```
 
 ---
 
-# 📁 Step 6 — Enter Your Repository Folder
+## 🚀 How to Create Your Repo
 
-```bash
-cd std-john-doe
-```
+1. Open the template:
+   [https://github.com/alphie-tech/template-student-repo](https://github.com/alphie-tech/template-student-repo)
 
----
+2. Click:
+   **Use this template → Create a new repository**
 
-# 🏷️ Assignment Naming Convention
-
-To keep repositories organized, all students must follow the official naming convention.
-
----
-
-## Weekly Folder Format
+3. Name your repository:
 
 ```txt
-week-{number}-{topic}
+std-your-name
 ```
-
-Examples:
-
-```txt
-week-1-html-basics
-week-2-css-basics
-week-3-flexbox-layout
-week-4-responsive-design
-week-5-javascript-basics
-week-6-dom-manipulation
-```
-
----
-
-## Rules
-
-Use:
-- lowercase letters
-- hyphens (-)
-- descriptive names
-
-Do NOT use:
-- spaces
-- underscores
-- vague names
-
----
-
-## ✅ Good Examples
-
-```txt
-week-7-tailwind-landing-page
-week-8-react-components
-week-9-framer-motion
-```
-
----
-
-## ❌ Bad Examples
-
-```txt
-Week 1 HTML
-assignment1
-week_1_html
-finalwork
-```
-
-Consistency helps maintain professional project structure.
-
----
-
-# 🧱 Step 7 — Create Weekly Assignment Folders
 
 Example:
 
-```bash
-mkdir week-1-html-basics
+```txt
+std-alphie-kelly
 ```
 
-Inside it:
+4. Choose:
+
+* Public (recommended)
+
+5. Click:
+   **Create repository**
+
+---
+
+# 📥 Step 6 — Clone Your Repository
 
 ```bash
-touch index.html
+git clone https://github.com/your-username/std-your-name.git
 ```
 
 ---
 
-# 🚀 Step 8 — Submit Your Assignment
-
-## Check changed files
+# 📁 Step 7 — Enter Project Folder
 
 ```bash
-git status
+cd std-your-name
 ```
 
 ---
 
-## Add files
+# 🧱 Step 8 — Project Structure Rule (VERY IMPORTANT)
 
-```bash
-git add .
+Your repository already contains:
+
+```txt
+week-1-html/
+week-2-css/
+```
+
+These are your **starter weeks only**.
+
+---
+
+## 📌 Your Responsibility Going Forward
+
+As the course progresses:
+
+👉 You MUST manually create new week folders yourself
+
+Following this naming pattern:
+
+```txt
+week-3-tailwind/
+week-4-javascript/
+week-5-dom-manipulation/
+week-6-react-basics/
 ```
 
 ---
 
-## Save your work
+## 📦 Folder Rule
 
-```bash
-git commit -m "Completed week-1-html-basics assignment"
+Each new week MUST follow this structure:
+
+```txt
+week-{number}-{topic}/
+```
+
+Inside each folder:
+
+* instructions.md
+* boilerplate/
+
+````
+
+---
+
+# 📂 Step 9 — Assignments Folder
+
+All submissions go into:
+
+```txt
+assignments/
+````
+
+Example:
+
+```txt
+assignments/week-1/
+assignments/week-2/
 ```
 
 ---
 
-## Upload to GitHub
-
-```bash
-git push
-```
-
----
-
-# 🔄 Basic Workflow
-
-Whenever starting work:
+# 🔄 Step 10 — Git Workflow
 
 ```bash
 git pull
-```
-
-Whenever finishing work:
-
-```bash
 git add .
-git commit -m "your message"
+git commit -m "Completed week 1 assignment"
 git push
-```
-
----
-
-# 🧠 Good Commit Messages
-
-✅ Good:
-
-```txt
-Added responsive navbar
-Completed week-2-css-basics assignment
-Styled landing page
-```
-
-❌ Bad:
-
-```txt
-done
-update
-final final
 ```
 
 ---
 
 # ❌ Important Rules
 
-Do NOT:
-- submit zip files
-- upload screenshots instead of code
-- delete assignment folders
-- share your GitHub password
+* Do NOT delete starter folders
+* Do NOT skip structure rules
+* Do NOT submit zip files
+* Always follow naming conventions
 
 ---
 
-# 🌟 Why This Matters
+# 🌟 Final Thought
 
-By the end of this course, your GitHub profile will become:
-- your portfolio
-- proof of your consistency
-- proof of your practical skills
+This repo is not just homework.
 
-Build it properly from Day 1.
+It is your:
 
----
+* portfolio
+* skill record
+* developer identity
 
-# 🚀 Final Advice
+Treat it seriously from day one.
 
-Do not fear GitHub.
-
-At first:
-- commands may feel strange
-- errors may happen
-- things may look confusing
-
-That is completely normal.
-
-Practice consistently.
-
-Soon:
-
-```bash
-git add
-git commit
-git push
-```
-
-will become second nature.
+````
