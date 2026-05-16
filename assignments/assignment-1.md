@@ -5,6 +5,30 @@
 
 ---
 
+## 📝 Submission Guidelines
+
+1. **Organize your work:**
+   - Create a `week-1-assignments` folder
+   - Place each day's work in separate subfolders (monday/, tuesday/, etc.)
+   - Place friday's capstone project in its own folder
+
+2. **File naming:**
+   - Use lowercase, descriptive names
+   - Use hyphens instead of spaces (e.g., `thursday-box-model.html`)
+
+3. **Code quality:**
+   - Properly indent all code
+   - Use meaningful class and ID names
+   - Add comments for complex sections
+   - Use external CSS for larger projects
+
+4. **Testing:**
+   - Open all files in a browser
+   - Test all interactive elements
+   - Check for visual consistency
+
+---
+
 ## 📅 Monday: HTML Review + Semantic HTML Elements
 
 ### Part 1: HTML Foundations Review (30 minutes)
@@ -374,30 +398,6 @@ By the end of Friday, you should be able to:
 - ✅ Understand display properties (block, inline, inline-block)
 - ✅ Create cohesive designs with color schemes
 - ✅ Make interfaces responsive and accessible
-
----
-
-## 📝 Submission Guidelines
-
-1. **Organize your work:**
-   - Create a `week-1-assignments` folder
-   - Place each day's work in separate subfolders (monday/, tuesday/, etc.)
-   - Place friday's capstone project in its own folder
-
-2. **File naming:**
-   - Use lowercase, descriptive names
-   - Use hyphens instead of spaces (e.g., `thursday-box-model.html`)
-
-3. **Code quality:**
-   - Properly indent all code
-   - Use meaningful class and ID names
-   - Add comments for complex sections
-   - Use external CSS for larger projects
-
-4. **Testing:**
-   - Open all files in a browser
-   - Test all interactive elements
-   - Check for visual consistency
 
 ---
 
