@@ -8,7 +8,7 @@
 ## 📝 Submission Guidelines
 
 1. **Organize your work:**
-   - Create a `week-1-assignments` folder
+   - Create a `assignments/week-1` folder
    - Place each day's work in separate subfolders (monday/, tuesday/, etc.)
    - Place friday's capstone project in its own folder
 
